@@ -38,9 +38,4 @@ This applicaiton makes use of [Streamlit](https://www.streamlit.io), see:
 
 ## ISSUES
 PROBLEM: `URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)>`
-REASON: Certificate error with the url address. 
-SOLUTIONS:
-
-- Fix certificate
-- Target a local file instead
-- Use an `http` url version instead
+SOLUTION: On OSX, goto the Applications/Python 3.7 folder then double-click on `Install Certficates.command`
